@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>This step will do nothing. Please provide at least one UI action to assert as visible or not visible.</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:21:47</sys_created_on>
+        <sys_id>eff9f47b1be211108632a9b4bd4bcbf6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_eff9f47b1be211108632a9b4bd4bcbf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:24:43</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Future">f8d9747b1be211108632a9b4bd4bcb57</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=eff9f47b1be211108632a9b4bd4bcbf6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:21:47</sys_created_on>
+        <sys_id>2ff9f47b1be211108632a9b4bd4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:21:47</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:21:47</sys_created_on>
+        <sys_id>67f9f47b1be211108632a9b4bd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:21:47</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:21:47</sys_created_on>
+        <sys_id>a3f9f47b1be211108632a9b4bd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:21:47</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:21:47</sys_created_on>
+        <sys_id>eff9f47b1be211108632a9b4bd4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:21:47</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2f8eb17cdba0fb004d2bac44d496194b</instance_id>
+        <instance_name>dev77847</instance_name>
+        <name>sys_atf_step_eff9f47b1be211108632a9b4bd4bcbf6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>This step will do nothing. Please provide at least one UI action to assert as visible or not visible.</description><display_name>UI Action Visibility</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-21 18:21:47</sys_created_on><sys_id>eff9f47b1be211108632a9b4bd4bcbf6</sys_id><sys_mod_count>10</sys_mod_count><sys_name>UI Action Visibility</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_eff9f47b1be211108632a9b4bd4bcbf6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-21 18:24:43</sys_updated_on><table>x_58872_needit_needit</table><test display_value="When needed - Future">f8d9747b1be211108632a9b4bd4bcb57</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=eff9f47b1be211108632a9b4bd4bcbf6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-21 18:21:47</sys_created_on><sys_id>2ff9f47b1be211108632a9b4bd4bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-21 18:21:47</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-21 18:21:47</sys_created_on><sys_id>67f9f47b1be211108632a9b4bd4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-21 18:21:47</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-21 18:21:47</sys_created_on><sys_id>a3f9f47b1be211108632a9b4bd4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-21 18:21:47</sys_updated_on><value/><variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eff9f47b1be211108632a9b4bd4bcbf6</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-21 18:21:47</sys_created_on><sys_id>eff9f47b1be211108632a9b4bd4bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-21 18:21:47</sys_updated_on><value/><variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>395414722</payload_hash>
+        <record_name>UI Action Visibility</record_name>
+        <reverted_from/>
+        <source>775adce91b6211108632a9b4bd4bcbc8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:24:43</sys_created_on>
+        <sys_id>26aa34bb1be211108632a9b4bd4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183fbca50d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 18:24:43</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>2eaa34bb67e2111000327c24a1b1a210</update_guid>
+        <update_guid_history>2eaa34bb67e2111000327c24a1b1a210:395414722,aeaaf0bbe0e211100fccfa2d2dc478e8:526090593,16aaf0bb63e211106ac0a7fc72c20971:656766464,1aaaf0bb59e211102dad448e8220d53c:787442335,31aab0bb6ae211106669330e0e3ba6b1:918118206,a3f9f47ba2e211108db165d3b3627ffa:1048794077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 18:24:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>296368aeb23143508775b670e5b89a01</sys_id>
+        <sys_metadata>eff9f47b1be211108632a9b4bd4bcbf6</sys_metadata>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_eff9f47b1be211108632a9b4bd4bcbf6</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_eff9f47b1be211108632a9b4bd4bcbf6">26aa34bb1be211108632a9b4bd4bcb11</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
